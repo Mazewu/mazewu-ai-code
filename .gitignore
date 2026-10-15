@@ -1,0 +1,56 @@
+### CUSTOM ###
+application-local.yml
+application-prod.yml
+tmp
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### ADDED: frontend & build artifacts ###
+node_modules/
+dist/
+*.log
+*.zip
+
+### ADDED: keep secrets out of git ###
+application-local.yml
+application-prod.yml
+.env
+.env.*
+### 不上传的文件 ###
+/改造报告.md
+tools/
+/PrepareRepo.ps1
+/推送到GitHub操作文档.md
+/简历优化指南.md
